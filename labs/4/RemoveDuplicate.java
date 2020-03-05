@@ -20,6 +20,7 @@ public class RemoveDuplicate {
 				if (n == 0 || n == 1) {
 				return "";
 			}
+			// JA: Thois does not work. Some comments would help to understand what you are doing.
 			for (int i = 0; i < n; i++) {
 				int temp = arr[i];
 				for (int j = 0; j < n; j++) {
