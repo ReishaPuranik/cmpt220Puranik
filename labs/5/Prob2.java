@@ -20,7 +20,7 @@ public class Prob2 {
 		for (int i = 0; i < x.length; i++) {
 			sum2 = Math.pow(x[i] - sum, 2) + sum2;
 		}
-		sum2 = sum2/10;
+		sum2 = sum2/(x.length - 1);
 		return Math.sqrt(sum2);		
 	}
 	public static double mean(double[] x) {

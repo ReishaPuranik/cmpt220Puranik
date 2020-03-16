@@ -29,15 +29,16 @@ public class Prob4 {
 		Arrays.sort(array2);
 		if (array1.length != array2.length) {
 			equal = false;
-		} else { for (int i = 0; i < array2.length; i++) {
-			if (array1[i] != array2[i]) {
-				equal = false;
-				break;
-			} else { 
-				equal = true;
-			}
-		}
-			
-		} return equal;
+		} else { 
+			for (int i = 0; i < array2.length; i++) {
+				if (array1[i] != array2[i]) {
+					equal = false;
+					break;
+				} else { 
+					equal = true;
+				}
+			}	
+		} 
+		return equal;
 	}
 }
